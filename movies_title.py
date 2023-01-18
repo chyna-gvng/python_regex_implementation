@@ -2,7 +2,7 @@
 import re
 
 # The movie titles should match the pattern "Title (yyyy)", where "Title" is any string of characters, and "yyyy" is a four-digit year.
-movie_pattern = re.compile(r"Title \([0-9]{4}\)")
+movie_pattern = re.compile(r".* \([0-9]{4}\)")
 
 # Function to find movie titles in a string:
 
