@@ -15,4 +15,4 @@ def find_jokes(string):
 
 # Test the function:
 print(find_jokes("Why did the tomato turn red? Because it saw the salad dressing! Why did the chicken cross the road? To get to the other side!"))
-print(find_jokes("Why did the tomato turn red? Because it saw the salad dressing! Why did the chicken cross the road? To get to the other side! Why did the cow jump over the moon? To get to the udder side!"))
+print(find_jokes("Why did the cow jump over the moon?"))
